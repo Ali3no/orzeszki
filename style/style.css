@@ -1,0 +1,83 @@
+body{
+    color:white;
+    font: bold 10pt Aarial, sans-serif;
+    background-image:url(obrazy/tlo.png);
+}
+#caly{
+    width: 810px;
+    height: 1375px;
+    border: 3px solid orange;
+    border-radius: 20px;
+    margin: auto;
+    background:rgb(240, 183, 78);
+    overflow: hidden;
+}
+#gora{
+    width: 810px;
+    height: 130px;
+    background: orange;
+    font-size:60px;
+    text-align: center;
+}
+.ramka{
+    width: 300px;
+    margin: 50px;
+    height: 300px;
+    font-size: 30px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+.Robraz{
+    border: 4px dotted white;
+    overflow: hidden;
+}
+.oro{
+    width:300px;
+    height: 260px;
+    cursor:pointer;
+}
+.oro:hover{
+    transition: transform .2s ease-in-out;
+    -webkit-transform: scale(0.95) rotate(-32deg);
+    -ms-transform: scale(0.95) rotate(-32deg);
+    transform: scale(0.95) rotate(-32deg);
+}
+#orzech1{
+    float: left;
+}
+#orzech2{
+    float: left;
+}
+#orzech3{
+    float: left;
+}
+#orzech4{
+    float: left;
+}
+#orzech5{
+    float: left;
+}
+#orzech6{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration:underline;
+    color:blueviolet;
+}
+#Info{
+    font-size: 20px;
+    margin-left:20px;
+}
+#powrot{
+    text-align: left;
+    font-size: 15px;
+    padding-top:10px;
+    padding-left:10px;
+}
+h2{
+    text-decoration: underline;
+}
